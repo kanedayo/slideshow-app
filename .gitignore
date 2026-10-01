@@ -1,0 +1,12 @@
+# 写真本体は個人データのためコミットしない
+photos/
+!photos/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
