@@ -1,6 +1,8 @@
-# 写真本体は個人データのためコミットしない
-photos/
-!photos/.gitkeep
+# 写真フォルダ（サブフォルダ含む）をすべて除外
+photos*/
+
+# ただし、各フォルダ内の .gitkeep だけは追跡対象にする
+!photos*/**/.gitkeep
 
 # Python
 __pycache__/
